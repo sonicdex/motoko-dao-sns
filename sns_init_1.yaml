@@ -90,45 +90,46 @@ NnsProposal:
 
   # The description of the proposal. Must be a string of 10 to 2,000 bytes.
   summary: >
-    I. Token Distribution
-      Total token supply - 10,000
-      Allocated to treasury - 9992
-      Allocated to decentralization sale - 4
-      Allocated to developer neurons - 4
-      The ledger transaction fee is 0.0001 MOTOKO
+    ## I. Token Distribution
+      - Total token supply - 10,000
+      - Allocated to treasury - 9992
+      - Allocated to decentralization sale - 4
+      - Allocated to developer neurons - 4
+      - The ledger transaction fee is 0.0001 MOTOKO
 
-    II. Decentralization Sale
-      Min participation - 1 ICP
-      Max participation - 2 ICP
-      Min participants - 50
-      Max participants - 100
-      Min to be raised - 100 ICP
-      Max to be raised - 100 ICP
-      Request of the Neuron Fund | 0 ICP
-      Duration - 7 days
+    ## II. Decentralization Sale
+      - Min participation - 1 ICP
+      - Max participation - 2 ICP
+      - Min participants - 50
+      - Max participants - 100
+      - Min to be raised - 100 ICP
+      - Max to be raised - 100 ICP
+      - Request of the Neuron Fund | 0 ICP
+      - Duration - 7 days
 
-    III. Motoko SNS
-      Proposal rejection fee - .25 MOTOKO
-      Initial Voting Period - 4 days
-      Wait for Quiet - 1 day
-      Minimum Neuron - .01 MOTOKO
-      Minimum Dissolve Delay - 1 week
-      Maximum Dissolve Delay - 1 week
-      Maximum Age Bonus - 25%
-      Maximum Rewarding Age - 1 year
-      Reward Rate - 0%
+    ## III. Motoko SNS
+      - Proposal rejection fee - .25 MOTOKO
+      - Initial Voting Period - 4 days
+      - Wait for Quiet - 1 day
+      - Minimum Neuron - .01 MOTOKO
+      - Minimum Dissolve Delay - 1 week
+      - Maximum Dissolve Delay - 1 week
+      - Maximum Age Bonus - 25%
+      - Maximum Rewarding Age - 1 year
+      - Reward Rate - 0%
 
-    IV. The DApp
-      $MOTOKO consists of the following canisters:
-        2uktw-yiaaa-aaaah-adwxq-cai (Token & Claim Page Canister)
-        2tlvc-vqaaa-aaaah-adwxa-cai (1:1 Swap dApp)
+    ## IV. The Dapp
 
-    Following a successful SNS, the following actions will be taken:
-      The SNEED 1:1 Swap Canister has been forked to serve an identical purpose for $MOTOKO, included in previously provided canisters. 
-      A proposal will be set forth & accepted by custodians to transfer 9992 $MOTOKO from the treasury to the $MOTOKO 1:1 Swap dApp, 
-      offering existing holders the ability to convert ICRC $MOTOKO to SNS ICRC $MOTOKO - enabling decentralization of the SNS.
+    ### MOTOKO consists of the following canisters:
+      - 2uktw-yiaaa-aaaah-adwxq-cai (Token & Claim Page Canister)
+      - 2tlvc-vqaaa-aaaah-adwxa-cai (1:1 Swap dApp)
 
-    V. Resources and Links
+    ### Following a successful SNS, the following actions will be taken:
+      - The SNEED 1:1 Swap Canister has been forked to serve an identical purpose for $MOTOKO, included in previously provided canisters. 
+      - A proposal will be set forth & accepted by custodians to transfer 9992 $MOTOKO from the treasury to the $MOTOKO 1:1 Swap dApp, 
+      - offering existing holders the ability to convert ICRC $MOTOKO to SNS ICRC $MOTOKO - enabling decentralization of the SNS.
+
+    ## V. Resources and Links
       - ICP dApp (https://2uktw-yiaaa-aaaah-adwxq-cai.icp0.io/21) 
       - Github (https://github.com/sonicdex/motoko-token-canister)
       - Twitter (https://twitter.com/motokoghost)
