@@ -473,7 +473,33 @@ Swap:
   #
   # Each list element must be an ISO 3166-1 alpha-2 country code.
   restricted_countries:
-    # - AQ # Antarctica
+    [
+      "AF",
+      "BY",
+      "BA",
+      "BI",
+      "CF",
+      "KP",
+      "CD",
+      "IR",
+      "IQ",
+      "LB",
+      "LY",
+      "ML",
+      "ME",
+      "MM",
+      "NI",
+      "RU",
+      "RS",
+      "SO",
+      "SD",
+      "SY",
+      "UA",
+      "VE",
+      "YE",
+      "ZW",
+      "US",
+    ]
 
   # Configuration of the vesting schedule of the neuron basket, i.e., the SNS
   # neurons that a participants will receive from a successful
