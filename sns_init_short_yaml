@@ -1,0 +1,148 @@
+name: Motoko
+
+description: >
+  A community initiative aiming to drive awareness of the Motoko branding
+
+Principals: []
+
+logo: logo.png
+
+url: https://2uktw-yiaaa-aaaah-adwxq-cai.icp0.io/
+
+NnsProposal:
+  title: "NNS Proposal to create an SNS named 'Motoko'"
+
+  url: "https://forum.dfinity.org/t/upcoming-sns-dao-for-motoko/29052"
+
+  summary: >
+    ## I. Token Distribution
+      - Total token supply - 10,000
+      - Allocated to treasury - 9992
+      - Allocated to decentralization sale - 4
+      - Allocated to developer neurons - 4
+      - The ledger transaction fee is 0.0001 MOTOKO
+
+    ## II. Decentralization Sale
+      - Min participation - 1 ICP
+      - Max participation - 2 ICP
+      - Min participants - 50
+      - Max participants - 100
+      - Min to be raised - 100 ICP
+      - Max to be raised - 100 ICP
+      - Request of the Neuron Fund | 0 ICP
+      - Duration - 7 days
+
+    ## III. Motoko SNS
+      - Proposal rejection fee - .25 MOTOKO
+      - Initial Voting Period - 4 days
+      - Wait for Quiet - 1 day
+      - Minimum Neuron - .01 MOTOKO
+      - Minimum Dissolve Delay - 1 week
+      - Maximum Dissolve Delay - 1 week
+      - Maximum Age Bonus - 25%
+      - Maximum Rewarding Age - 1 year
+      - Reward Rate - 0%
+
+    ## IV. The Dapp
+
+    ### MOTOKO consists of the following canisters:
+      - 2uktw-yiaaa-aaaah-adwxq-cai (Token & Claim Page Canister)
+      - 2tlvc-vqaaa-aaaah-adwxa-cai (1:1 Swap dApp)
+
+    ### Following a successful SNS, the following actions will be taken:
+      - The SNEED 1:1 Swap Canister has been forked to serve an identical purpose for $MOTOKO, included in previously provided canisters. 
+      - A proposal will be set forth & accepted by custodians to transfer 9992 $MOTOKO from the treasury to the $MOTOKO 1:1 Swap dApp, 
+      - offering existing holders the ability to convert ICRC $MOTOKO to SNS ICRC $MOTOKO - enabling decentralization of the SNS.
+
+    ## V. Resources and Links
+      - ICP dApp (https://2uktw-yiaaa-aaaah-adwxq-cai.icp0.io/21) 
+      - Github (https://github.com/sonicdex/motoko-token-canister)
+      - Twitter (https://twitter.com/motokoghost)
+      - Forum Post (https://forum.dfinity.org/t/upcoming-sns-dao-for-motoko/29052)
+
+fallback_controller_principals:
+  - c6567-z7ogh-ebfff-k4ffn-6deln-bflut-cezs7-s32vi-cqfoi-62wnl-kae
+
+dapp_canisters:
+  - 2uktw-yiaaa-aaaah-adwxq-cai
+  - 2tlvc-vqaaa-aaaah-adwxa-cai
+
+Token:
+  name: Motoko
+  symbol: MOTOKO
+  transaction_fee: 0.0001 tokens
+  logo: logo.png
+
+Proposals:
+  rejection_fee: 0.25 token
+  initial_voting_period: 4 days
+  maximum_wait_for_quiet_deadline_extension: 1 day
+
+Neurons:
+  minimum_creation_stake: 0.01 tokens
+
+Voting:
+  minimum_dissolve_delay: 1 week
+
+  MaximumVotingPowerBonuses:
+    DissolveDelay:
+      duration: 1 week
+      bonus: 0%
+
+    Age:
+      duration: 1 year
+      bonus: 25%
+
+  RewardRate:
+    initial: 0%
+    final: 0%
+    transition_duration: 0 years
+
+Distribution:
+  Neurons:
+    - principal: xhaev-qkql6-luda2-no2kg-zfo7r-kyjpr-c2mww-o3r24-2tije-eqepq-fae
+      stake: 1 tokens
+      memo: 0
+      dissolve_delay: 1 week
+      vesting_period: 0 years
+
+    - principal: swlp6-6qujk-ozivy-wtwp2-rkvp5-figiu-j7mdt-rztl2-jgvfg-bn4jg-bqe
+      stake: 1 tokens
+      memo: 0
+      dissolve_delay: 1 week
+      vesting_period: 0 years
+
+    - principal: mbu2l-4nhlz-snyyy-7zcs6-kglfc-at2en-t2p7w-rpqdz-yihy6-zdufr-lqe
+      stake: 1 tokens
+      memo: 0
+      dissolve_delay: 1 week
+      vesting_period: 0 years
+
+    - principal: gemao-x462j-bw5bz-arlaj-6taug-57uis-w6kj2-t2qbj-3vy7l-erahy-sae
+      stake: 1 tokens
+      memo: 0
+      dissolve_delay: 1 week
+      vesting_period: 0 years
+
+  InitialBalances:
+    governance: 9992 tokens
+    swap: 4 tokens
+
+  total: 10000 tokens
+
+Swap:
+  minimum_participants: 50
+  minimum_direct_participation_icp: 100 tokens
+  maximum_direct_participation_icp: 100 tokens
+  minimum_participant_icp: 1 tokens
+  maximum_participant_icp: 2 tokens
+
+  restricted_countries:
+    # - AQ # Antarctica
+
+  VestingSchedule:
+    events: 2
+    interval: 2 days
+
+  duration: 7 days
+  neurons_fund_participation: false
