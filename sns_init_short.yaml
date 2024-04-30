@@ -138,7 +138,33 @@ Swap:
   maximum_participant_icp: 2 tokens
 
   restricted_countries:
-    # - AQ # Antarctica
+    [
+      "AF",
+      "BY",
+      "BA",
+      "BI",
+      "CF",
+      "KP",
+      "CD",
+      "IR",
+      "IQ",
+      "LB",
+      "LY",
+      "ML",
+      "ME",
+      "MM",
+      "NI",
+      "RU",
+      "RS",
+      "SO",
+      "SD",
+      "SY",
+      "UA",
+      "VE",
+      "YE",
+      "ZW",
+      "US",
+    ]
 
   VestingSchedule:
     events: 2
